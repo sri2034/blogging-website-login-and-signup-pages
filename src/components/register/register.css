@@ -19,17 +19,20 @@
   }
   
   
-  @media screen and (max-width: 635px) { 
-      .logo,.reg-form{
-          width: 100% !important;
-      }
-      .logo{
-         height: max-content;
-      }
-      img{
-          width: 100%;
-      }
-  }
+    @media screen and (max-width: 635px) { 
+        .logo,.reg-form{
+            width: 100% !important;
+        }
+        .logo{
+            height: max-content;
+        }
+        img{
+            width: 100%;
+        }
+        input{
+            width: 200px !important;
+        }
+    }
   
   @media screen and (min-width: 636px) and (max-width:1100px){
       .logo{
